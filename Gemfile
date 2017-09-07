@@ -51,3 +51,6 @@ group :development do
   gem "paperclip"
 end
 
+group :production do
+  gem 'unicorn'
+end
