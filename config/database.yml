@@ -51,4 +51,4 @@ production:
   <<: *default
   database: yumejitate_3_production
   username: root
-  password: <%= ENV['YUMEJITATE_3_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
