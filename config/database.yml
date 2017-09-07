@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: yumejitate_3_production
-  username: yumejitate_3
+  username: root
   password: <%= ENV['YUMEJITATE_3_DATABASE_PASSWORD'] %>
