@@ -53,4 +53,14 @@ end
 
 group :production do
   gem 'unicorn'
+  gem 'spring'
+  gem "pry-rails"
+  gem "compass-rails", "~> 2.0"
+  gem "sprockets", "~>2.11.0"
+  gem "kaminari"
+  gem "devise"
+  gem "paperclip"
+  gem 'rails_12factor'
+  gem 'pg'
+  gem 'thin'
 end
