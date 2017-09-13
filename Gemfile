@@ -61,6 +61,5 @@ group :production do
   gem "devise"
   gem "paperclip"
   gem 'rails_12factor'
-  gem 'pg'
   gem 'thin'
 end
