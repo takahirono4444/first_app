@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: yumejitate_3_production
-  username: root
-  password: 30933093309330933093
+  database: yumejitate_3
+  username: yumejitate3
+  password: taka3093
+  host: yumejitate3.cjlr5sxke1la.ap-northeast-1.rds.amazonaws.com
+  port: 3306
