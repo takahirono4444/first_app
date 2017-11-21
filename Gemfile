@@ -59,6 +59,5 @@ group :production do
   gem "kaminari"
   gem "devise"
   gem "paperclip"
-  gem 'rails_12factor'
   gem 'thin'
 end
