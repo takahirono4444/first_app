@@ -1,7 +1,5 @@
 class Picture < ActiveRecord::Base
-
-
-  belongs_to :product
+    belongs_to :product
   has_many :users
   belongs_to :finish
 
@@ -13,5 +11,6 @@ has_attached_file :photo,
 validates_attachment_content_type :photo,
                                       content_type: ["image/jpg","image/jpeg","image/png"]
 # validates_attachment :photo, content_type: { content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"] }
+
 
 end
