@@ -28,33 +28,33 @@ class FinishsController < ApplicationController
   end
 
     def find
-    @finish = Fnish.where(first_day: "#{params[:first_day_from]}".."#{params[:first_day_to]}")
+    @finish = Finish.where(first_day: "#{params[:first_day_from]}".."#{params[:first_day_to]}")
 
   end
   def find2
-@finish = Fnish.where(pay_string: "#{params[:pay_string_from]}".."#{params[:pay_string_to]}")
+@finish = Finish.where(pay_string: "#{params[:pay_string_from]}".."#{params[:pay_string_to]}")
 end
 def find3
-@finish = Fnish.where(delivery_string: "#{params[:delivery_string_from]}".."#{params[:delivery_string_to]}")
+@finish = Finish.where(delivery_string: "#{params[:delivery_string_from]}".."#{params[:delivery_string_to]}")
 
 
 end
 def find4
-@finish = Fnish.where(delivery_schedule: "#{params[:delivery_schedule_from]}".."#{params[:delivery_schedule_to]}")
+@finish = Finish.where(delivery_schedule: "#{params[:delivery_schedule_from]}".."#{params[:delivery_schedule_to]}")
 
 end
 def find5
-@finish = Fnish.where(product_delivery_schedule1: "#{params[:product_delivery_schedule1_from]}".."#{params[:product_delivery_schedule1_to]}")
+@finish = Finish.where(product_delivery_schedule1: "#{params[:product_delivery_schedule1_from]}".."#{params[:product_delivery_schedule1_to]}")
 
 end
 def find6
-@finish = Fnish.where(product_delivery_schedule2: "#{params[:product_delivery_schedule2_from]}".."#{params[:product_delivery_schedule2_to]}")
+@finish = Finish.where(product_delivery_schedule2: "#{params[:product_delivery_schedule2_from]}".."#{params[:product_delivery_schedule2_to]}")
 end
 def find7
-@finish = Fnish.where(product_delivery_schedule3: "#{params[:product_delivery_schedule3_from]}".."#{params[:product_delivery_schedule3_to]}")
+@finish = Finish.where(product_delivery_schedule3: "#{params[:product_delivery_schedule3_from]}".."#{params[:product_delivery_schedule3_to]}")
 end
 def find8
-@finish = Fnish.where(product_delivery_schedule4: "#{params[:product_delivery_schedule4_from]}".."#{params[:product_delivery_schedule4_to]}")
+@finish = Finish.where(product_delivery_schedule4: "#{params[:product_delivery_schedule4_from]}".."#{params[:product_delivery_schedule4_to]}")
   end
 
   def search
