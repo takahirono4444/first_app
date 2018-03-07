@@ -12,3 +12,4 @@ User.create(email: 'tfsami1126@ezweb.ne.jp', password: 'fukuda', nickname: 'Taka
 User.create(email: 'dh.code.x@gmail.com', password: 'fukuchi', nickname: 'Yukiko Fukuchi')
 User.create(email: 'sunny82y@gmail.com', password: 'tanoue', nickname: 'Tanoue')
 User.create(email: 'am.pq7191@ezweb.ne.jp', password: 'manoaoi', nickname: 'Aoi Mano')
+User.create(email: 'takanita_36.c.m.a@ezweb.ne.jp', password: 'takano', nickname: 'Chizuko Takano')
