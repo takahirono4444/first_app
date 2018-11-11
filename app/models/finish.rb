@@ -4,7 +4,7 @@ class Finish < ActiveRecord::Base
   has_many :pictures
  has_many :users
 
- validates_uniqueness_of :member_id
+ #validates_uniqueness_of :member_id
 
 
 #必須項目

@@ -3,9 +3,18 @@ class Product < ActiveRecord::Base
  has_many :pictures
  has_many :users
  has_one :finish
+ #validates :finish, associated: false
 
-
+# def inishalize(finish)
+ # @finish = finish
+  # member = @finish.find(member_id)
+   #if member == member_id
+  #end
+ 
+#validates_uniqueness_of :member
 validates_uniqueness_of :member_id
+#validates_uniqueness_of :member_id, class_name: "Finish"
+
 
 #必須項目
 validates :member_id, presence: true, format: { with: /\A[!-~]+\z/i, :message => "「会員番号」は必須入力項目です。「会員番号」は半角で入力してください。 "}
