@@ -7,7 +7,6 @@ User.create(email: 'reiko.tanikawa0318@gmail.com', password: 'tanikawa', nicknam
 User.create(email: 'toysrus7839spyoshi@docomo.ne.jp', password: 'shimogata', nickname: 'Yoshihiro Shimogata')
 User.create(email: 'yumejitate@limetrd.co.jp', password: 'lime1946', nickname: 'Common')
 User.create(email: 'tfsami1126@ezweb.ne.jp', password: 'fukuda', nickname: 'Takako Fukuda')
-User.create(email: 'dh.code.x@gmail.com', password: 'fukuchi', nickname: 'Yukiko Fukuchi')
 User.create(email: 'am.pq7191@ezweb.ne.jp', password: 'manoaoi', nickname: 'Aoi Mano')
 User.create(email: 'takanita_36.c.m.a@ezweb.ne.jp', password: 'takano', nickname: 'Chizuko Takano')
 User.create(email: 'takashige@gmail.com', password: 'matsumoto', nickname: 'Takashige Matsumoto')
